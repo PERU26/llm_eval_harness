@@ -1,0 +1,20 @@
+Sarah Chen
+Email: sarah.chen@email.com | Phone: (555) 123-4567
+
+SUMMARY
+Software engineer with 5 years of experience building backend systems and APIs.
+
+EXPERIENCE
+Backend Engineer, TechFlow Inc. (2021 - Present)
+- Built REST APIs using Python and Django
+- Led migration to microservices architecture
+
+Software Developer, DataWorks LLC (2019 - 2021)
+- Developed data pipelines using Python and SQL
+- Worked with AWS infrastructure
+
+SKILLS
+Python, Django, SQL, AWS, Docker, REST APIs, Git
+
+EDUCATION
+B.S. Computer Science, State University, 2019

@@ -1,0 +1,36 @@
+Priyanshu Lingwal
+888-242-5743 | priyanshulingwal3@gmail.com
+
+EDUCATION
+Vivekananda Institute of Professional Studies
+Bachelor of Technology in Artificial Intelligence and Machine Learning, CGPA: 7.34
+Sep 2023 - Sep 2027
+
+Nalanda Modern Public School
+XII (CBSE) with Science, Maths and Computer Science, Percentage: 80
+Apr 2021 - Jun 2022
+
+PROJECTS
+Human Emotion Classification System using VGG19, CNN & ResNet50 | Jan 2025-April 2025
+- Designed and implemented a deep-learning-based system for automatic classification of facial emotions using VGG19 and ResNet50 architectures for real-time HCI and mental-health applications.
+- Preprocessed the KDEF dataset (2,938 images, 7 emotion classes: anger, disgust, fear, happiness, sadness, surprise, and neutral). Built a modular pipeline for image preprocessing, data augmentation, and training to improve robustness.
+- Fine-tuned transfer-learning models, achieving 85% accuracy across all emotion classes.
+- Benchmarked multiple architectures to optimise accuracy vs training speed and resource use.
+- Presented results in a peer-reviewed paper at the 1st International Conference on Networked Computing and Data Analytics (ICNCDA-2025), PIET Jaipur (May 23-24, 2025).
+
+TECHNICAL SKILLS
+Languages: Python, Java, SQL
+Libraries & Frameworks: TensorFlow, Keras, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, OpenCV
+Tools & Platforms: Git, VS Code, Jupyter Notebook, Google Colab
+Concepts: Machine Learning, Deep Learning, Computer Vision, Natural Language Processing (NLP), Data Structures & Algorithms
+
+SOFT SKILLS
+Problem Solving & Analytical Thinking, Effective Communication, Adaptability to New Technologies
+
+EXTRA-CURRICULAR ACTIVITIES
+- Completed free online courses on Machine Learning and Artificial Intelligence from platforms like Coursera, edX, and Google AI.
+- Contributed actively to the CODE Society at VIPS for over 1 year, enhancing collaboration and technical skills.
+- Played Tug of War in the college event Alfresco (April 2025) and secured 2nd place.
+- Participated in AI/ML workshops and webinars to deepen practical understanding.
+- Engaged in self-driven ML projects to apply theoretical knowledge.
+- Selected as a Intern in Taare Zameen Foundation.

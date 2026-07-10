@@ -14,16 +14,18 @@ TASK_DESCRIPTION = (
 OUTPUT_SCHEMA = {
     "name": "string - the person's full name",
     "years_experience": "number - total years of professional experience",
-    "skills": "array of strings - technical/professional skills listed"
+    "programming_languages": "array of strings - languages like Python, Java, SQL",
+    "tools_and_frameworks": "array of strings - tools/libraries like Git, TensorFlow, React",
+    "skills": "array of strings - concepts/domains like Machine Learning, Communication"
 }
-
-# The instruction we send to every model, every time.
 PROMPT_TEMPLATE = """You are extracting structured data from a resume.
 
 Return ONLY valid JSON in exactly this shape, nothing else - no explanation, no markdown:
 {{
   "name": "string",
   "years_experience": number,
+  "programming_languages": ["string", "string", ...],
+  "tools_and_frameworks": ["string", "string", ...],
   "skills": ["string", "string", ...]
 }}
 

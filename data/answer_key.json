@@ -1,0 +1,23 @@
+{
+  "resume_1.txt": {
+    "name": "Sarah Chen",
+    "years_experience": 5,
+    "programming_languages": ["Python", "SQL"],
+    "tools_and_frameworks": ["Django", "AWS", "Docker", "REST APIs", "Git"],
+    "skills": []
+  },
+  "resume_2.txt": {
+    "name": "Priyanshu Lingwal",
+    "years_experience": 0,
+    "programming_languages": ["Python", "Java", "SQL"],
+    "tools_and_frameworks": ["TensorFlow", "Keras", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "OpenCV", "Git", "VS Code", "Jupyter Notebook", "Google Colab"],
+    "skills": ["Machine Learning", "Deep Learning", "Computer Vision", "Natural Language Processing"]
+  },
+  "resume_3.txt": {
+    "name": "Naman Arora",
+    "years_experience": 0,
+    "programming_languages": ["HTML", "CSS", "JavaScript", "TypeScript", "Python", "C/C++", "GraphQL", "Dart"],
+    "tools_and_frameworks": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "React", "Next JS", "Node.js", "Flutter", "Git", "GitHub", "Docker"],
+    "skills": []
+  }
+}

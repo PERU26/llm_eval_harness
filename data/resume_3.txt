@@ -1,0 +1,42 @@
+Naman Arora
+852-751-0989 | namanarora1022@gmail.com
+
+EDUCATION
+Vivekananda Institute of Professional Studies
+Bachelor of Technology in Artificial Intelligence and Machine Learning, CGPA: 8.65
+Sep 2023 - Sep 2027
+
+Mira Model School
+XII (CBSE) with Science, Maths and Computer Science, Percentage: 90.0%
+Mar 2021 - Jun 2022
+
+PROJECTS
+Leetcode | React.js, Typescript, Docker, Nest JS, Prisma, PostgreSQL | Feb 2025
+- Enhanced user coding experience with Monaco Editor, supporting 15+ programming languages with syntax highlighting and autocomplete.
+- Executed over 100+ user-submitted code instances daily in Docker containers, ensuring 100% process isolation and preventing security vulnerabilities.
+- User Authentication: Secure login and user profiles to track progress using Github OAuth.
+
+Graphing and Analysis Tool for Complex Functions | React, Typescript, p5.js | Jul 2024
+- Made a 2D vector field visualization tool, accurately representing 100+ complex functions, improving clarity in mathematical analysis.
+- Enhanced function analysis with Domain Coloring, enabling visualization of magnitude variations across 500+ data points for better insights.
+- Built an interactive graphing tool using p5.js + React, achieving real-time rendering at 60 FPS.
+- Simulated Polya Vector Fields to model fluid dynamics in 2D.
+
+CsTimer - Rubik's Cube Speedsolving Timer | Next.js, Typescript, Nest JS, PostgreSQL | Oct 2022
+- Prepared a full-stack web application using Nest JS for the RESTful API and Next.js for the frontend.
+- Optimized data fetching with React Query, reducing API calls by 40% and improving load times.
+- Tracked and analyzed 1,000+ solve attempts with interactive charts.
+
+TECHNICAL SKILLS
+Languages: HTML, CSS, JavaScript, TypeScript, Python, C/C++, GraphQL, Dart
+Databases: PostgreSQL, MySQL, MongoDB, Redis
+Frameworks: React, Next JS, Astro, Node.js, Express JS, Nest JS, Flutter
+Developer Tools: Git, GitHub, Visual Studio Code, Figma, Linux, Neovim
+Libraries: Tailwind CSS, SCSS/SASS, Shaden UI, Apollo GraphQL, GraphQL code gen, React Query, Zustand, Formik, Yup, Prisma, TypeORM, Mikro ORM, json web tokens (JWT), Web Sockets(socket.io), Numpy, Pandas, Matplotlib, Scikit-Learn, Tensorflow
+
+EXTRACURRICULAR AND ACHIEVEMENTS
+- Completed two Udemy certifications in AI/ML and Flutter, mastering key concepts through 70+ hours of hands-on training and projects.
+- Contributed to the CODE Society at VIPS for more than 1 year, enhancing collaboration and technical skills.
+- Developed innovative solutions for real-world challenges in Smart India Hackathon 2023 & 2024.
+- Made 250+ open-source commits with The Byte Knights Club, enhancing project performance, debugging, and feature development.
+- Led The Byte Knights Club (2021-2022) as President, organizing 5+ coding events, mentoring contributors, and fostering a strong developer community.
