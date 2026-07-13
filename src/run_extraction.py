@@ -15,7 +15,10 @@ groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 def call_gemini(prompt):
     start = time.time()
-    model = genai.GenerativeModel("gemini-2.5-flash")
+    model = genai.GenerativeModel(
+    "gemini-2.5-flash",
+    generation_config={"temperature": 0}
+)
     response = model.generate_content(prompt)
     elapsed = time.time() - start
     return response.text, elapsed
@@ -24,9 +27,10 @@ def call_gemini(prompt):
 def call_groq(prompt):
     start = time.time()
     completion = groq_client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
-        messages=[{"role": "user", "content": prompt}]
-    )
+    model="llama-3.3-70b-versatile",
+    messages=[{"role": "user", "content": prompt}],
+    temperature=0
+)
     elapsed = time.time() - start
     return completion.choices[0].message.content, elapsed
 

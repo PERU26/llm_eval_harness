@@ -29,9 +29,13 @@ Return ONLY valid JSON in exactly this shape, nothing else - no explanation, no 
   "skills": ["string", "string", ...]
 }}
 
+Rules:
+- years_experience: use the number ONLY if the resume explicitly states years of professional work experience. If not explicitly stated, use 0. Do NOT estimate or infer this from project dates, education dates, or anything else.
+- programming_languages: only actual programming/query languages (e.g. Python, SQL, JavaScript).
+- tools_and_frameworks: only concrete tools, libraries, frameworks, databases, and platforms (e.g. Git, React, PostgreSQL, TensorFlow).
+- skills: only broad concepts or domains (e.g. Machine Learning, Communication, Leadership). Do NOT put specific tools or databases here.
+
 Resume text:
 {resume_text}
-"""
-
-# Which models we're comparing.
+"""# Which models we're comparing.
 MODELS = ["gemini", "groq"]
