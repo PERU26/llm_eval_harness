@@ -27,9 +27,16 @@ Findings and fixes along the way:
 - Gemini kept wrapping its JSON answers in markdown code blocks even though the prompt explicitly said not to. Had to add a cleanup step to strip this before parsing.
 - Fix: I set temperature=0 on both models (makes output more consistent/deterministic) and rewrote the prompt to explicitly say "if years of experience isn't stated, use 0, do not estimate from project or education dates." After this fix, both models scored 100% correct on years_experience across all 3 resumes, and tool/framework accuracy also improved.
 
-This before/after is one of the more interesting parts of the project so far - it shows how much prompt design and model settings affect reliability, not just which model you pick.
+Phase 4: Hallucination checker
+Wrote src/hallucination_check.py to check whether every fact the AI outputs actually appears somewhere in the original resume text. This is a different, broader check than Phase 3 - it catches things the AI might invent even if they weren't part of my answer key at all.
 
-Next up: Phase 4, building an automated hallucination checker that flags anything the AI mentions that isn't actually in the resume text (separate from just checking known fields against an answer key).
+What I found: programming languages and tools/frameworks had zero hallucinations across both models - these tend to be copied fairly literally from the resume. Skills had more flags, especially from Gemini (12 flagged on one resume).
+
+Known limitation: my checker uses exact text matching, so it only catches literal made-up facts. It doesn't understand meaning, so it flags reasonable summarization as a false positive. For example, the resume says "Led The Byte Knights Club... fostering a strong developer community," and the AI summarized this as "Leadership" and "Community Building" - which is a fair, accurate summary, but doesn't appear word-for-word in the resume, so my checker incorrectly flags it as a hallucination.
+
+A more accurate version would need semantic similarity checking (comparing meaning, not just exact words) instead of literal string matching. I'm noting this as a planned improvement rather than fixing it right now, so I can keep moving through the rest of the project - I'll come back to this if time allows.
+
+Next up: Phase 5, building a single comparison table that combines accuracy, hallucination rate, speed, and cost into one view per model.
 
 Tech stack
 - Python
@@ -42,3 +49,4 @@ How to run this
 3. Add a .env file with your own GEMINI_API_KEY and GROQ_API_KEY
 4. Run python -m src.run_extraction
 5. Run python -m src.score_correctness
+6. Run python -m src.hallucination_check
