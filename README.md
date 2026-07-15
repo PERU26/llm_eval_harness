@@ -4,9 +4,10 @@ This is a project I'm building to compare different free LLM APIs (Gemini and Gr
 
 I'm building this step by step and documenting my progress as I go.
 
-Model   NameAcc%   YearsAcc%   ListAcc%   Hallucination%   AvgTime(s)
-Gemini   100.0      100.0        97.8          11.3          7.77
-Groq     100.0      100.0        93.3          4.9           0.91 
+| Model  | Name Acc% | Years Acc% | List Acc% | Hallucination% | Avg Time(s) |
+|--------|-----------|------------|-----------|-----------------|------------|
+| Gemini | 100.0     | 100.0      | 97.8      | 11.3            | 7.77       |
+| Groq   | 100.0     | 100.0      | 93.3      | 4.9             | 0.91       |
 
 Takeaway: Groq is about 8x faster and flags fewer possible hallucinations, but Gemini extracts slightly more complete skill/tool lists. Neither model is a clear "winner" - it depends on whether speed or completeness matters more for the use case. Also worth noting: some of Gemini's higher hallucination rate is arguably reasonable summarization rather than fabrication (see the Phase 4 limitation below), so the real gap may be smaller than the raw number suggests.
 
