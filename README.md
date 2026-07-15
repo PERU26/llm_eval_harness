@@ -1,8 +1,14 @@
 LLM Evaluation Harness
 
-This is a project I'm building to compare different free LLM APIs (Gemini and Groq) on a real task - extracting structured info from resumes - to see which one performs better in terms of accuracy, hallucinations, speed, and cost.
+This is a project I'm building to compare different free LLM APIs (Gemini and Groq) on a real task - extracting structured info from resumes - to see which one performs better in terms of accuracy, hallucinations, speed, and cost using real numbers instead of guesswork.
 
 I'm building this step by step and documenting my progress as I go.
+
+Model   NameAcc%   YearsAcc%   ListAcc%   Hallucination%   AvgTime(s)
+Gemini   100.0      100.0        97.8          11.3          7.77
+Groq     100.0      100.0        93.3          4.9           0.91 
+
+Takeaway: Groq is about 8x faster and flags fewer possible hallucinations, but Gemini extracts slightly more complete skill/tool lists. Neither model is a clear "winner" - it depends on whether speed or completeness matters more for the use case. Also worth noting: some of Gemini's higher hallucination rate is arguably reasonable summarization rather than fabrication (see the Phase 4 limitation below), so the real gap may be smaller than the raw number suggests.
 
 Progress
 
@@ -36,7 +42,8 @@ Known limitation: my checker uses exact text matching, so it only catches litera
 
 A more accurate version would need semantic similarity checking (comparing meaning, not just exact words) instead of literal string matching. I'm noting this as a planned improvement rather than fixing it right now, so I can keep moving through the rest of the project - I'll come back to this if time allows.
 
-Next up: Phase 5, building a single comparison table that combines accuracy, hallucination rate, speed, and cost into one view per model.
+Phase 5: Comparison table
+src/comparison_table.py combines everything from Phases 2-4 into the single results table shown at the top of this README.
 
 Tech stack
 - Python
@@ -50,3 +57,4 @@ How to run this
 4. Run python -m src.run_extraction
 5. Run python -m src.score_correctness
 6. Run python -m src.hallucination_check
+7. Run python -m src.comparison_table
