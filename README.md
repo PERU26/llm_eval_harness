@@ -49,6 +49,21 @@ src/comparison_table.py combines everything from Phases 2-4 into the single resu
 Phase 6: Tracking results over time
 src/save_history.py saves every scoring run into a local SQLite database (results/history.db), with a timestamp and a label for which prompt version was used. This means every time I improve the prompt or settings, I get a permanent record of whether it actually helped, rather than just overwriting old results and losing that history.
 
+Phase 7: A/B testing a prompt change
+I wanted to test whether adding a worked example (few-shot prompting) to the prompt would improve accuracy further. I added a second prompt version (PROMPT_TEMPLATE_V2 in src/config.py) that includes one solved example before asking the AI to extract data from a new resume.
+
+To keep the test fair, I used resume_1 as the example and only tested/scored the new prompt on resume_2 and resume_3 - testing it on resume_1 too would have been unfair, since the model would have already seen the correct answer for that one (a mistake known as data leakage).
+
+Result: the few-shot example did not improve accuracy. Gemini's list accuracy actually dropped slightly (100% to 94.7%), and Groq stayed exactly the same. My takeaway is that the v1 prompt was already well-tuned (clear rules, explicit instructions), so there wasn't much room for an example to help, and it may have introduced minor confusion for Gemini.
+
+Limitations of this project so far:
+- Small sample size: only 3 resumes total, and the A/B test only used 2 of them. A 5.3 point difference on 2 resumes could easily be random noise rather than a real effect - I would need to test on many more resumes to say this conclusively.
+- My hallucination checker uses exact text matching, so it flags reasonable summarization (e.g. inferring "Leadership" from "Led the club") as a false positive. It can't yet tell the difference between the AI making something up versus fairly paraphrasing real content.
+- Results were only tested against Gemini and Groq. Other models (like GPT-4 or Claude) might behave differently.
+- The task itself (resume field extraction) is relatively simple for modern LLMs; a harder task might show bigger differences between models and prompt versions.
+
+Next up: Phase 8, building a simple dashboard so these results are viewable without digging through JSON files.
+
 Tech stack
 - Python
 - Gemini API
@@ -64,3 +79,6 @@ How to run this
 6. Run python -m src.hallucination_check
 7. Run python -m src.comparison_table
 8. Run python -m src.save_history
+9. Run python -m src.run_extraction_v2
+10. Run python -m src.score_v2
+11. Run python -m src.compare_v1_v2
