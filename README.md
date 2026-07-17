@@ -46,11 +46,15 @@ A more accurate version would need semantic similarity checking (comparing meani
 Phase 5: Comparison table
 src/comparison_table.py combines everything from Phases 2-4 into the single results table shown at the top of this README.
 
+Phase 6: Tracking results over time
+src/save_history.py saves every scoring run into a local SQLite database (results/history.db), with a timestamp and a label for which prompt version was used. This means every time I improve the prompt or settings, I get a permanent record of whether it actually helped, rather than just overwriting old results and losing that history.
+
 Tech stack
 - Python
 - Gemini API
 - Groq API
-
+- SQLite
+  
 How to run this
 1. Clone the repo
 2. pip install python-dotenv google-generativeai groq
@@ -59,3 +63,4 @@ How to run this
 5. Run python -m src.score_correctness
 6. Run python -m src.hallucination_check
 7. Run python -m src.comparison_table
+8. Run python -m src.save_history
