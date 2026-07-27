@@ -1,0 +1,7 @@
+streamlit
+plotly
+pandas
+python-dotenv
+google-generativeai
+groq
+pypdf

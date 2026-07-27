@@ -213,7 +213,8 @@ elif page == "Live Demo":
                 st.subheader("Gemini")
                 with st.spinner("Calling Gemini..."):
                     try:
-                        genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+                        gemini_key = st.secrets.get("GEMINI_API_KEY", os.getenv("GEMINI_API_KEY"))
+                        genai.configure(api_key=gemini_key)
                         model = genai.GenerativeModel("gemini-2.5-flash", generation_config={"temperature": 0})
                         start = time.time()
                         response = model.generate_content(prompt)
@@ -230,7 +231,8 @@ elif page == "Live Demo":
                 st.subheader("Groq")
                 with st.spinner("Calling Groq..."):
                     try:
-                        client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+                        groq_key = st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY"))
+                        client = Groq(api_key=groq_key)
                         start = time.time()
                         completion = client.chat.completions.create(
                             model="llama-3.3-70b-versatile",
