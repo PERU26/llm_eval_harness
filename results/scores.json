@@ -16,7 +16,7 @@
         "total": 0
       },
       "parse_success": true,
-      "time_seconds": 6.010967493057251
+      "time_seconds": 5.822145700454712
     },
     "groq": {
       "name_correct": true,
@@ -34,7 +34,7 @@
         "total": 0
       },
       "parse_success": true,
-      "time_seconds": 0.9861345291137695
+      "time_seconds": 0.7640476226806641
     }
   },
   "resume_2.txt": {
@@ -50,11 +50,11 @@
         "total": 12
       },
       "skills": {
-        "matched": 4,
+        "matched": 3,
         "total": 4
       },
       "parse_success": true,
-      "time_seconds": 6.373389005661011
+      "time_seconds": 4.236066102981567
     },
     "groq": {
       "name_correct": true,
@@ -72,7 +72,7 @@
         "total": 4
       },
       "parse_success": true,
-      "time_seconds": 0.7196619510650635
+      "time_seconds": 0.6120975017547607
     }
   },
   "resume_3.txt": {
@@ -92,7 +92,7 @@
         "total": 0
       },
       "parse_success": true,
-      "time_seconds": 10.939648628234863
+      "time_seconds": 10.075095891952515
     },
     "groq": {
       "name_correct": true,
@@ -110,7 +110,7 @@
         "total": 0
       },
       "parse_success": true,
-      "time_seconds": 1.0221846103668213
+      "time_seconds": 0.7214477062225342
     }
   }
 }

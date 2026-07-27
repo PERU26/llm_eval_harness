@@ -46,12 +46,12 @@
         "hallucination_count": 0
       },
       "tools_and_frameworks": {
-        "total_claimed": 15,
+        "total_claimed": 12,
         "not_found_in_resume": [],
         "hallucination_count": 0
       },
       "skills": {
-        "total_claimed": 9,
+        "total_claimed": 8,
         "not_found_in_resume": [],
         "hallucination_count": 0
       }
