@@ -1,0 +1,78 @@
+{
+  "resume_2.txt": {
+    "gemini": {
+      "name_correct": true,
+      "years_experience_correct": true,
+      "programming_languages": {
+        "matched": 3,
+        "total": 3
+      },
+      "tools_and_frameworks": {
+        "matched": 12,
+        "total": 12
+      },
+      "skills": {
+        "matched": 3,
+        "total": 4
+      },
+      "parse_success": true,
+      "time_seconds": 4.605037212371826
+    },
+    "groq": {
+      "name_correct": true,
+      "years_experience_correct": true,
+      "programming_languages": {
+        "matched": 3,
+        "total": 3
+      },
+      "tools_and_frameworks": {
+        "matched": 12,
+        "total": 12
+      },
+      "skills": {
+        "matched": 3,
+        "total": 4
+      },
+      "parse_success": true,
+      "time_seconds": 0.6620299816131592
+    }
+  },
+  "resume_3.txt": {
+    "gemini": {
+      "name_correct": true,
+      "years_experience_correct": true,
+      "programming_languages": {
+        "matched": 7,
+        "total": 8
+      },
+      "tools_and_frameworks": {
+        "matched": 11,
+        "total": 11
+      },
+      "skills": {
+        "matched": 0,
+        "total": 0
+      },
+      "parse_success": true,
+      "time_seconds": 10.669716358184814
+    },
+    "groq": {
+      "name_correct": true,
+      "years_experience_correct": true,
+      "programming_languages": {
+        "matched": 8,
+        "total": 8
+      },
+      "tools_and_frameworks": {
+        "matched": 10,
+        "total": 11
+      },
+      "skills": {
+        "matched": 0,
+        "total": 0
+      },
+      "parse_success": true,
+      "time_seconds": 0.6123316287994385
+    }
+  }
+}

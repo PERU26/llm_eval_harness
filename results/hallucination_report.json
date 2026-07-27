@@ -1,0 +1,129 @@
+{
+  "resume_1.txt": {
+    "gemini": {
+      "programming_languages": {
+        "total_claimed": 2,
+        "not_found_in_resume": [],
+        "hallucination_count": 0
+      },
+      "tools_and_frameworks": {
+        "total_claimed": 4,
+        "not_found_in_resume": [],
+        "hallucination_count": 0
+      },
+      "skills": {
+        "total_claimed": 4,
+        "not_found_in_resume": [],
+        "hallucination_count": 0
+      }
+    },
+    "groq": {
+      "programming_languages": {
+        "total_claimed": 2,
+        "not_found_in_resume": [],
+        "hallucination_count": 0
+      },
+      "tools_and_frameworks": {
+        "total_claimed": 4,
+        "not_found_in_resume": [],
+        "hallucination_count": 0
+      },
+      "skills": {
+        "total_claimed": 4,
+        "not_found_in_resume": [
+          "Backend Development",
+          "API Development"
+        ],
+        "hallucination_count": 2
+      }
+    }
+  },
+  "resume_2.txt": {
+    "gemini": {
+      "programming_languages": {
+        "total_claimed": 3,
+        "not_found_in_resume": [],
+        "hallucination_count": 0
+      },
+      "tools_and_frameworks": {
+        "total_claimed": 15,
+        "not_found_in_resume": [],
+        "hallucination_count": 0
+      },
+      "skills": {
+        "total_claimed": 9,
+        "not_found_in_resume": [],
+        "hallucination_count": 0
+      }
+    },
+    "groq": {
+      "programming_languages": {
+        "total_claimed": 3,
+        "not_found_in_resume": [],
+        "hallucination_count": 0
+      },
+      "tools_and_frameworks": {
+        "total_claimed": 12,
+        "not_found_in_resume": [],
+        "hallucination_count": 0
+      },
+      "skills": {
+        "total_claimed": 8,
+        "not_found_in_resume": [],
+        "hallucination_count": 0
+      }
+    }
+  },
+  "resume_3.txt": {
+    "gemini": {
+      "programming_languages": {
+        "total_claimed": 8,
+        "not_found_in_resume": [],
+        "hallucination_count": 0
+      },
+      "tools_and_frameworks": {
+        "total_claimed": 38,
+        "not_found_in_resume": [],
+        "hallucination_count": 0
+      },
+      "skills": {
+        "total_claimed": 23,
+        "not_found_in_resume": [
+          "User Experience",
+          "Data Visualization",
+          "Data Analysis",
+          "Simulation",
+          "Full-stack Development",
+          "Web Development",
+          "Performance Optimization",
+          "Problem Solving",
+          "Innovation",
+          "Open Source Contribution",
+          "Leadership",
+          "Community Building"
+        ],
+        "hallucination_count": 12
+      }
+    },
+    "groq": {
+      "programming_languages": {
+        "total_claimed": 8,
+        "not_found_in_resume": [],
+        "hallucination_count": 0
+      },
+      "tools_and_frameworks": {
+        "total_claimed": 36,
+        "not_found_in_resume": [],
+        "hallucination_count": 0
+      },
+      "skills": {
+        "total_claimed": 4,
+        "not_found_in_resume": [
+          "Communication",
+          "Leadership"
+        ],
+        "hallucination_count": 2
+      }
+    }
+  }
+}

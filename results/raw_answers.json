@@ -1,0 +1,32 @@
+{
+  "resume_1.txt": {
+    "gemini": {
+      "raw_answer": "```json\n{\n  \"name\": \"Sarah Chen\",\n  \"years_experience\": 5,\n  \"programming_languages\": [\n    \"Python\",\n    \"SQL\"\n  ],\n  \"tools_and_frameworks\": [\n    \"Django\",\n    \"AWS\",\n    \"Docker\",\n    \"Git\"\n  ],\n  \"skills\": [\n    \"Backend Systems\",\n    \"REST APIs\",\n    \"Microservices Architecture\",\n    \"Data Pipelines\"\n  ]\n}\n```",
+      "time_seconds": 6.010967493057251
+    },
+    "groq": {
+      "raw_answer": "{\n  \"name\": \"Sarah Chen\",\n  \"years_experience\": 5,\n  \"programming_languages\": [\"Python\", \"SQL\"],\n  \"tools_and_frameworks\": [\"Django\", \"AWS\", \"Docker\", \"Git\"],\n  \"skills\": [\"Backend Development\", \"API Development\", \"Data Pipelines\", \"Microservices Architecture\"]\n}",
+      "time_seconds": 0.9861345291137695
+    }
+  },
+  "resume_2.txt": {
+    "gemini": {
+      "raw_answer": "```json\n{\n  \"name\": \"Priyanshu Lingwal\",\n  \"years_experience\": 0,\n  \"programming_languages\": [\n    \"Python\",\n    \"Java\",\n    \"SQL\"\n  ],\n  \"tools_and_frameworks\": [\n    \"TensorFlow\",\n    \"Keras\",\n    \"Scikit-learn\",\n    \"Pandas\",\n    \"NumPy\",\n    \"Matplotlib\",\n    \"Seaborn\",\n    \"OpenCV\",\n    \"Git\",\n    \"VS Code\",\n    \"Jupyter Notebook\",\n    \"Google Colab\",\n    \"VGG19\",\n    \"ResNet50\",\n    \"KDEF\"\n  ],\n  \"skills\": [\n    \"Machine Learning\",\n    \"Deep Learning\",\n    \"Computer Vision\",\n    \"Natural Language Processing\",\n    \"Data Structures & Algorithms\",\n    \"Problem Solving\",\n    \"Analytical Thinking\",\n    \"Effective Communication\",\n    \"Adaptability to New Technologies\"\n  ]\n}\n```",
+      "time_seconds": 6.373389005661011
+    },
+    "groq": {
+      "raw_answer": "{\n  \"name\": \"Priyanshu Lingwal\",\n  \"years_experience\": 0,\n  \"programming_languages\": [\"Python\", \"Java\", \"SQL\"],\n  \"tools_and_frameworks\": [\"TensorFlow\", \"Keras\", \"Scikit-learn\", \"Pandas\", \"NumPy\", \"Matplotlib\", \"Seaborn\", \"OpenCV\", \"Git\", \"VS Code\", \"Jupyter Notebook\", \"Google Colab\"],\n  \"skills\": [\"Machine Learning\", \"Deep Learning\", \"Computer Vision\", \"Natural Language Processing (NLP)\", \"Data Structures & Algorithms\", \"Problem Solving & Analytical Thinking\", \"Effective Communication\", \"Adaptability to New Technologies\"]\n}",
+      "time_seconds": 0.7196619510650635
+    }
+  },
+  "resume_3.txt": {
+    "gemini": {
+      "raw_answer": "```json\n{\n  \"name\": \"Naman Arora\",\n  \"years_experience\": 0,\n  \"programming_languages\": [\n    \"HTML\",\n    \"CSS\",\n    \"JavaScript\",\n    \"TypeScript\",\n    \"Python\",\n    \"C/C++\",\n    \"GraphQL\",\n    \"Dart\"\n  ],\n  \"tools_and_frameworks\": [\n    \"PostgreSQL\",\n    \"MySQL\",\n    \"MongoDB\",\n    \"Redis\",\n    \"React\",\n    \"Next JS\",\n    \"Astro\",\n    \"Node.js\",\n    \"Express JS\",\n    \"Nest JS\",\n    \"Flutter\",\n    \"Git\",\n    \"GitHub\",\n    \"Visual Studio Code\",\n    \"Figma\",\n    \"Linux\",\n    \"Neovim\",\n    \"Tailwind CSS\",\n    \"SCSS/SASS\",\n    \"Shaden UI\",\n    \"Apollo GraphQL\",\n    \"GraphQL code gen\",\n    \"React Query\",\n    \"Zustand\",\n    \"Formik\",\n    \"Yup\",\n    \"Prisma\",\n    \"TypeORM\",\n    \"Mikro ORM\",\n    \"json web tokens (JWT)\",\n    \"Web Sockets (socket.io)\",\n    \"Numpy\",\n    \"Pandas\",\n    \"Matplotlib\",\n    \"Scikit-Learn\",\n    \"Tensorflow\",\n    \"Docker\",\n    \"p5.js\"\n  ],\n  \"skills\": [\n    \"Artificial Intelligence\",\n    \"Machine Learning\",\n    \"User Experience\",\n    \"Security\",\n    \"Process Isolation\",\n    \"User Authentication\",\n    \"Data Visualization\",\n    \"Mathematical Analysis\",\n    \"Data Analysis\",\n    \"Fluid Dynamics\",\n    \"Simulation\",\n    \"Full-stack Development\",\n    \"Web Development\",\n    \"Performance Optimization\",\n    \"Collaboration\",\n    \"Problem Solving\",\n    \"Innovation\",\n    \"Open Source Contribution\",\n    \"Debugging\",\n    \"Feature Development\",\n    \"Leadership\",\n    \"Mentoring\",\n    \"Community Building\"\n  ]\n}\n```",
+      "time_seconds": 10.939648628234863
+    },
+    "groq": {
+      "raw_answer": "{\n  \"name\": \"Naman Arora\",\n  \"years_experience\": 0,\n  \"programming_languages\": [\"HTML\", \"CSS\", \"JavaScript\", \"TypeScript\", \"Python\", \"C/C++\", \"GraphQL\", \"Dart\"],\n  \"tools_and_frameworks\": [\"React\", \"Next JS\", \"Astro\", \"Node.js\", \"Express JS\", \"Nest JS\", \"Flutter\", \"Git\", \"GitHub\", \"Visual Studio Code\", \"Figma\", \"Linux\", \"Neovim\", \"PostgreSQL\", \"MySQL\", \"MongoDB\", \"Redis\", \"Tailwind CSS\", \"SCSS/SASS\", \"Shaden UI\", \"Apollo GraphQL\", \"GraphQL code gen\", \"React Query\", \"Zustand\", \"Formik\", \"Yup\", \"Prisma\", \"TypeORM\", \"Mikro ORM\", \"json web tokens (JWT)\", \"Web Sockets(socket.io)\", \"Numpy\", \"Pandas\", \"Matplotlib\", \"Scikit-Learn\", \"Tensorflow\"],\n  \"skills\": [\"Artificial Intelligence\", \"Machine Learning\", \"Communication\", \"Leadership\"]\n}",
+      "time_seconds": 1.0221846103668213
+    }
+  }
+}

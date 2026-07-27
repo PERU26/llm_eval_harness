@@ -1,0 +1,22 @@
+{
+  "resume_2.txt": {
+    "gemini": {
+      "raw_answer": "```json\n{\n  \"name\": \"Priyanshu Lingwal\",\n  \"years_experience\": 0,\n  \"programming_languages\": [\"Python\", \"Java\", \"SQL\"],\n  \"tools_and_frameworks\": [\"TensorFlow\", \"Keras\", \"Scikit-learn\", \"Pandas\", \"NumPy\", \"Matplotlib\", \"Seaborn\", \"OpenCV\", \"Git\", \"VS Code\", \"Jupyter Notebook\", \"Google Colab\"],\n  \"skills\": [\"Machine Learning\", \"Deep Learning\", \"Computer Vision\", \"Natural Language Processing (NLP)\", \"Data Structures & Algorithms\", \"Problem Solving & Analytical Thinking\", \"Effective Communication\", \"Adaptability to New Technologies\"]\n}\n```",
+      "time_seconds": 4.605037212371826
+    },
+    "groq": {
+      "raw_answer": "{\n  \"name\": \"Priyanshu Lingwal\",\n  \"years_experience\": 0,\n  \"programming_languages\": [\"Python\", \"Java\", \"SQL\"],\n  \"tools_and_frameworks\": [\"TensorFlow\", \"Keras\", \"Scikit-learn\", \"Pandas\", \"NumPy\", \"Matplotlib\", \"Seaborn\", \"OpenCV\", \"Git\", \"VS Code\", \"Jupyter Notebook\", \"Google Colab\"],\n  \"skills\": [\"Machine Learning\", \"Deep Learning\", \"Computer Vision\", \"Natural Language Processing (NLP)\", \"Data Structures & Algorithms\", \"Problem Solving & Analytical Thinking\", \"Effective Communication\", \"Adaptability to New Technologies\"]\n}",
+      "time_seconds": 0.6620299816131592
+    }
+  },
+  "resume_3.txt": {
+    "gemini": {
+      "raw_answer": "```json\n{\n  \"name\": \"Naman Arora\",\n  \"years_experience\": 0,\n  \"programming_languages\": [\n    \"HTML\",\n    \"CSS\",\n    \"JavaScript\",\n    \"TypeScript\",\n    \"Python\",\n    \"C\",\n    \"C++\",\n    \"GraphQL\",\n    \"Dart\"\n  ],\n  \"tools_and_frameworks\": [\n    \"PostgreSQL\",\n    \"MySQL\",\n    \"MongoDB\",\n    \"Redis\",\n    \"React\",\n    \"Next JS\",\n    \"Astro\",\n    \"Node.js\",\n    \"Express JS\",\n    \"Nest JS\",\n    \"Flutter\",\n    \"Git\",\n    \"GitHub\",\n    \"Visual Studio Code\",\n    \"Figma\",\n    \"Linux\",\n    \"Neovim\",\n    \"Tailwind CSS\",\n    \"SCSS/SASS\",\n    \"Shadcn UI\",\n    \"Apollo GraphQL\",\n    \"GraphQL code gen\",\n    \"React Query\",\n    \"Zustand\",\n    \"Formik\",\n    \"Yup\",\n    \"Prisma\",\n    \"TypeORM\",\n    \"Mikro ORM\",\n    \"JWT\",\n    \"Socket.io\",\n    \"Numpy\",\n    \"Pandas\",\n    \"Matplotlib\",\n    \"Scikit-Learn\",\n    \"Tensorflow\",\n    \"Docker\",\n    \"Monaco Editor\",\n    \"p5.js\",\n    \"Github OAuth\",\n    \"RESTful API\"\n  ],\n  \"skills\": [\n    \"Artificial Intelligence\",\n    \"Machine Learning\"\n  ]\n}\n```",
+      "time_seconds": 10.669716358184814
+    },
+    "groq": {
+      "raw_answer": "{\n  \"name\": \"Naman Arora\",\n  \"years_experience\": 0,\n  \"programming_languages\": [\"HTML\", \"CSS\", \"JavaScript\", \"TypeScript\", \"Python\", \"C/C++\", \"GraphQL\", \"Dart\"],\n  \"tools_and_frameworks\": [\"React\", \"Next JS\", \"Astro\", \"Node.js\", \"Express JS\", \"Nest JS\", \"Flutter\", \"PostgreSQL\", \"MySQL\", \"MongoDB\", \"Redis\", \"Git\", \"GitHub\", \"Visual Studio Code\", \"Figma\", \"Linux\", \"Neovim\", \"Tailwind CSS\", \"SCSS/SASS\", \"Shaden UI\", \"Apollo GraphQL\", \"GraphQL code gen\", \"React Query\", \"Zustand\", \"Formik\", \"Yup\", \"Prisma\", \"TypeORM\", \"Mikro ORM\", \"json web tokens (JWT)\", \"Web Sockets(socket.io)\", \"Numpy\", \"Pandas\", \"Matplotlib\", \"Scikit-Learn\", \"Tensorflow\"],\n  \"skills\": []\n}",
+      "time_seconds": 0.6123316287994385
+    }
+  }
+}
